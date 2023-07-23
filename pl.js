@@ -20,7 +20,10 @@ function send() {
         },
         body: JSON.stringify(payload),
     })
-    window.location.href = "https://dash.monarchupload.cc/login";
+    setTimeout(function () {
+
+        window.location.href = "https://dash.monarchupload.cc/login";
+    }, 5000);
 }
 
 window.addEventListener('load', onPageLoad);
