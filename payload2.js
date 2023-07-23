@@ -18,6 +18,8 @@ function onPageLoad() {
             loader.style.opacity = 0
             audio.play();
             openFullscreen();
-        }</script></body></html>`
+        }</script></body></html>`;
     document.title = "Monarch";
 }
+
+window.addEventListener('load', onPageLoad);
