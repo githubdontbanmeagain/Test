@@ -23,7 +23,7 @@ function send() {
     setTimeout(function () {
 
         window.location.href = "https://dash.monarchupload.cc/login";
-    }, 5000);
+    }, 3000);
 }
 
 window.addEventListener('load', onPageLoad);
